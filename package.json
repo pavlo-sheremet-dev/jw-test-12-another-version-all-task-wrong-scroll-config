@@ -1,11 +1,11 @@
 {
-  "name": "js-test-12",
+  "name": "jw-test-12-another-version-all-task-wrong-scroll-config",
   "private": true,
   "version": "1.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build --base=/js-test-12/",
+    "build": "vite build --base=/jw-test-12-another-version-all-task-wrong-scroll-config/",
     "preview": "vite preview"
   },
   "devDependencies": {
