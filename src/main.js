@@ -17,16 +17,7 @@ let search = '';
 refs.form.addEventListener('submit', async e => {
   e.preventDefault();
   search = e.target.elements.query.value.trim();
-  if (!search) {
-    iziToast.error({
-      position: 'topRight',
-      title: 'Error',
-      message: 'Search query cannot be empty. Please enter a keyword!',
-    });
-    return;
-  }
   refs.loader.classList.add('show');
-  refs.galleryContainer.innerHTML = '';
   page = 1;
 
   try {
