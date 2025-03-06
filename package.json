@@ -1,11 +1,11 @@
 {
-  "name": "jw-test-12-another-version-all-task-wrong-scroll-config",
+  "name": "jw-test-12-another-version-for-all-task_main-wrong-scroll-config",
   "private": true,
   "version": "1.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build --base=/jw-test-12-another-version-all-task-wrong-scroll-config/",
+    "build": "vite build --base=/jw-test-12-another-version-for-all-task_main-wrong-scroll-config/",
     "preview": "vite preview"
   },
   "devDependencies": {
